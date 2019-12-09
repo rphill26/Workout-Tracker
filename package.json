@@ -1,0 +1,20 @@
+{
+  "name": "workout-tracker",
+  "version": "1.0.0",
+  "description": "An application to help users keep track of their workout routines",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rphill26/Workout-Tracker.git"
+  },
+  "author": "Randall Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rphill26/Workout-Tracker/issues"
+  },
+  "homepage": "https://github.com/rphill26/Workout-Tracker#readme"
+}
