@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../images/gym-background.jpg);
+    background-size: cover;
+}
+
+#nav-title {
+    font-size: 3.5em;
+}
+
+#nav-link {
+    font-size: 1.5em;
+}
