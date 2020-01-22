@@ -21,6 +21,8 @@ body{
     background: url(../images/metal-grate.png);
     background-size: cover;
     background-blend-mode: soft-light;
+    align-content: center;
+    text-align: center;
 }
 
 .card-title{
@@ -35,4 +37,23 @@ body{
     font-size: 3.25em;
     color: whitesmoke;
     font-variant: small-caps;
+}
+/* .card-body{
+    
+} */
+.formField{
+    margin: 0.5em;
+    width: 25vw;
+    text-align: center;
+
+}
+.link{
+    margin: 1.0em;
+    font-size: larger;
+    padding: 0.25em;
+    color: whitesmoke;
+    
+}
+.link:hover{
+    font-size: 2.0em;
 }

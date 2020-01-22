@@ -33,6 +33,18 @@
           <div class="card-body">
             <h5 class="card-title">Build The Body You Want</h5>
             <h6 class="card-subtitle">Start Today with Workout Tracker &trade; </h6>
+            <br>
+            <form action="/submit" method="post">
+              <input type="text" name="title" placeholder="Workout Title" class="formField">
+              <br>
+              <textarea type="text" name="body" placeholder="Workout Body" class="formField"></textarea>
+              <br>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <br>
+              <a href="/workout" class="link">Your Workouts</a>
+              <br>
+              <a href="/exercise" class="link">Your Exercises</a>
+            </form>
           </div>
         </div>
     </div>
