@@ -30,6 +30,16 @@ db.Exercise.create({ name: "First Workout!", workouts: [] })
     console.log(message);
   });
 
+app.get("/", (req, res) => {
+  db.Exercise.find({})
+    .then(dbExercise => {
+      res.json(dbExercise);
+    })
+    .catch(err => {
+      res.json(err);
+    });
+});
+
 app.get("/exercise", (req, res) => {
   db.Exercise.find({})
     .then(dbExercise => {
@@ -61,9 +71,6 @@ app.post("/submit", ({ body }, res) => {
     )
     .then(dbExercise => {
       res.json(dbExercise);
-    })
-    .then(dbExercise => {
-      JSON.stringify(dbExercise);
     })
     .catch(err => {
       res.json(err);
