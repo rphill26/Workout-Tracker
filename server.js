@@ -11,9 +11,7 @@ app.use(express.json());
 app.use(express.static("public"));
 // app.use(logger("dev"));
 
-// const PORT =
-//   8080 ||
-//   "mongodb://workoutTracker:rootroot1@ds253348.mlab.com:53348/heroku_xxrc2fk5";
+var PORT = process.env.PORT || 3000;
 
 // MAKE SURE TO CHANGE THE PATHWAY
 mongoose.connect(
